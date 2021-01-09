@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobilna aplikacija</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--saldo-->
+    <div class="container">
+        <div class="dostupanbudzet">
+            <p clas="budzetic">Dostupan budzet u novembru 2019</p>
+            <div id="saldo">
+
+            </div>
+            <div class="prihodic">
+                <p><span id="black">Prihod</span><span id="plus"></span></p>
+            </div>
+            <div class="rashodic">
+                <p><span id="black">Rashod</span><span id="minus"></span><span id="procenat"></span><span id="procentic">%</span></p>
+            </div>
+        </div>
+        <!--unos-->
+        <div id="unos">
+            <select id="select">
+             <option value="0">-</option>
+             <option value="1">Prihod</option>
+             <option value="2">Rashod</option>
+       </select>
+            <input type="text" id="txt" placeholder="opis">
+            <input type="number" id="num" placeholder="iznos">
+            <button id="dodaj"><i class="fas fa-check-circle"></i></button>
+        </div>
+
+        <!--upis-->
+
+        <div id="prihodrashodi">
+            <div class="prihodi">
+                <h2>Prihod</h2>
+                <ul id="prihodi"></ul>
+            </div>
+            <div class="rashodi">
+                <h2>Rashodi</h2>
+                <ul id="rashodi"></ul>
+            </div>
+        </div>
+
+
+
+
+        <script src="main.js"></script>
+</body>
+
+</html>

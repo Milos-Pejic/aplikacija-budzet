@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/****
+dostupanBudzet
+******/
+
+.dostupanbudzet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color: lightgray;
+    padding: 30px;
+}
+
+#procenat {
+    font-size: 1rem;
+}
+
+#procentic {
+    font-size: 1rem;
+}
+
+.dostupanbudzet p:first-child {
+    color: white;
+    font-size: 2rem;
+}
+
+.dostupanbudzet #saldo {
+    padding: 10px 30px;
+}
+
+.prihodic {
+    background: aqua;
+    padding: 10px 30px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+#black {
+    color: black;
+}
+
+#plus {
+    color: lightgray;
+}
+
+.rashodic {
+    background: red;
+    padding: 10px 30px;
+    color: black;
+}
+
+.dostupanbudzet #saldo {
+    padding: 10px 30px;
+}
+
+.dostupanbudzet #pri {
+    padding: 10px 30px;
+}
+
+.dostupanbudzet #ras {
+    padding: 10px 30px;
+}
+
+#saldo {
+    color: white;
+    font-size: 2rem;
+}
+
+#plus {
+    margin-left: 80px;
+}
+
+#minus {
+    margin-left: 80px;
+    color: lightgray;
+}
+
+
+/*******
+inputi
+******/
+
+#unos {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 300px;
+}
+
+#unos input[type=text] {
+    padding: 10px 30px;
+    margin: 0 15px;
+}
+
+#unos button {
+    padding: 10px 30px;
+}
+
+#dodaj {
+    border: none;
+    background: transparent;
+    color: red;
+    font-size: 1.5rem;
+}
+
+
+/*******
+prihodirashodi
+*******/
+
+#prihodrashodi {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+#prihodrashodi div:first-child {
+    flex: 0 0 47%;
+}
+
+#prihodrashodi div:last-child {
+    flex: 0 0 47%;
+}
+
+#prihodrashodi {
+    margin-left: 70px;
+}
+
+.prihodi h2 {
+    color: aqua;
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+}
+
+#prihodi {
+    font-size: 1.5rem;
+}
+
+#rashodi {
+    font-size: 1.5rem;
+}
+
+.rashodi h2 {
+    color: red;
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+}
+
+#iznos {
+    margin-left: 300px;
+    color: aqua;
+}
+
+#iznosrashod {
+    margin-left: 300px;
+    color: red;
+}
+
+#procenat {
+    margin-left: 20px;
+}
+
+
+/*****
+dugme
+****/
+
+.hide {
+    visibility: hidden;
+}
+
+
+/*.hide:hover {
+    display: block;
+}*/
+
+li:hover .hide {
+    visibility: visible;
+}
